@@ -25,3 +25,4 @@ The application generates a random number between 1 and 100, and the player need
 6. The guess is stored in previous guesses and the number of remaining attempts decrease.
 7. If the user runs out of attempts, the game displays the correct number.
 8. A Start New Game button appears to restart the game.
+# live demo - https://mohdshami2005.github.io/number-guessing-game/
