@@ -1,0 +1,62 @@
+#header{
+    background-color:black;
+    color:white;
+    height:70px;
+    display:flex;
+    justify-content:space-evenly
+}
+#main{
+    background-color:gray;
+    color:white;
+}
+#rules{
+    font-size:20px;
+}
+#mainform{
+    display:flex;
+    flex-direction:column;
+}
+#num{
+    height:30px;
+    width:200px;
+}
+#submit{
+    height:40px;
+    width:150px;
+    border-radius:20px;
+    color:white;
+    background-color:black;
+    position:relative;
+    left:20px;
+}
+#main{
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:column;
+    align-items:center;
+    height:650px;
+}
+#mainform{
+  padding-top:20px;
+}
+#newGame{
+    background-color:orange;
+    color:white;
+    font-size:20px;
+    font-family:cursive;
+}
+#newGame:hover{
+    cursor:pointer;
+}
+#previous,#remain,h2{
+    display:inline;
+}
+#previous,#remain{
+    font-size:20px;
+}
+#lowOrHigh{
+    font-size:20px;
+}
+#submit:hover{
+    cursor:pointer;
+}

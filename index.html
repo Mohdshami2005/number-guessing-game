@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div id="header">
+        <h1>Number Guessing Game</h1>
+    </div>
+    <div id="main">
+        <div id="rules">
+            Try to Guess a Random Number Between 1 and 100<br>
+            You Have 10 Attempts to Guess the Right Number.
+        </div>
+        <div id="important">
+            <h1 id="heading">Guess A Number</h1>
+            <div id="form">
+                <form id="mainform">
+                    <input type="text" id="num"><br><br>
+                    <input type="submit" id="submit" value="Submit Guess">
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <p><h2>Previous Guess : </h2> <p id="previous"></p></p>
+            <p><h2>Remaining Guesses : </h2> <p id="remain">10</p></p>
+            <p id="lowOrHigh"></p>
+            
+            <!--after ending the game we will print here start a new game  so we will be appending a child in the "footer" div and we will append the span 
+            element because we will also give a background color to it so in order to prevent coloring the whole line we need to color only the text area
+            and as span is a inline element   so it will only take the required area. -->
+        </div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
